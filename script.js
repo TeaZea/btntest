@@ -1,5 +1,5 @@
-let correct = document.getElementById('correct')
+let btnCorrect = document.querySelector('#correct');
 
-correct.addEventListener('click', function onClick() {
-    correct.style.backgroundColor = 'green';
+btnCorrect.addEventListener('click', function onClick() {
+    btnCorrect.style.backgroundColor = 'green';
 });
