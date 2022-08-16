@@ -1,5 +1,9 @@
-let btnCorrect = document.querySelector('#correct');
+document.addEventListener('DOMContentLoaded', function () {
 
-btnCorrect.addEventListener('click', function onClick() {
-    btnCorrect.style.backgroundColor = 'green';
+    let btnCorrect = document.querySelector('#correct');
+
+    btnCorrect.addEventListener('click', function () {
+        this.style.backgroundColor = 'green';
+        document.querySelector('#feedback1').innerHTML = 'Nice';
+    });
 });
